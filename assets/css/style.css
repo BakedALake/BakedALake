@@ -14,7 +14,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 960px;
+  max-width: 980px;
   margin: 0 auto;
   clear: both;
 }
@@ -130,7 +130,7 @@ h3, h2 {
 .main-section {
   float: left;
   width: 100%;
-  max-width: 960px;
+  max-width: 980px;
   padding: 30px;
   margin: 0 0 40px;
   background: #ffffff;
