@@ -101,7 +101,7 @@ h3 {
 /* footer */
 
 footer {
-  padding: 30px 0;
+  /* padding: 0px 0px 0px 0px; */
   clear: both;
   font-size: 12px;
   color: #ffffff;
@@ -109,7 +109,7 @@ footer {
   text-align: center;
   background: #666666;
   border-top: 8px solid #4aaaa5;
-  height: 50px;
+  height: 80px;
 }
 
 h3, h2 {
@@ -124,7 +124,7 @@ h3, h2 {
 #main-container {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .main-section {
@@ -227,4 +227,10 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+.linkico {
+  max-width: 50px;
+  max-height: 50px;
+  margin: 0px 5px 0px 5px;
 }
