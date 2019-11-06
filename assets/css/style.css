@@ -148,9 +148,10 @@ img#about {
 .work {
   position: relative;
   float: left;
-  width: 274px;
-  margin: 15px 15px 15px 15px;
-  overflow: auto;
+  width: 270px;
+  margin-left: 15px;
+  margin-right:15px;
+  /* overflow: auto; */
 }
 
 .work:nth-child(even) {
@@ -158,9 +159,11 @@ img#about {
 }
 
 .work img {
-  width: 274px;
-  height: 274px;
-  border: 0 none;
+  display: block;
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: 270px;
+  height: 270px;
   opacity: 0.8;
 }
 
@@ -168,8 +171,8 @@ img#about {
   position: absolute;
   bottom: 20px;
   width: 100%;
-  padding: 15px;
-  margin-bottom: 0;
+  padding: 5px;
+  margin-bottom: 0px;
   font-weight: 300;
   line-height: 30px;
   color: #ffffff;
@@ -183,7 +186,7 @@ img#about {
   width: 200px;
   height: auto;
   margin-top: 10px;
-  margin-right: 25px;
+  margin-right: 10px;
 }
 
 /* contact page */
